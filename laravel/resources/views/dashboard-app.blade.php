@@ -3,13 +3,13 @@
     <head>
         <title>Apartment Living Guide</title>
 
-        <link rel="stylesheet" href="/foundation/bower_components/foundation/css/foundation.min.css">
+        <link rel="stylesheet" href="/css/foundation.min.css">
 
         <!-- This is how you would link your custom stylesheet -->
-        <link rel="stylesheet" href="/foundation/css/app.css">
-        <link rel="stylesheet" href="/foundation/css/template.css">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/template.css">
 
-        <script src="/foundation/bower_components/foundation/js/vendor/modernizr.js"></script>
+        <script src="/js/js/vendor/modernizr.js"></script>
     </head>
     <body>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
@@ -69,8 +69,8 @@
 
         @yield('content')
 
-        <script src="/foundation/bower_components/foundation/js/vendor/jquery.js"></script>
-        <script src="/foundation/bower_components/foundation/js/foundation.min.js"></script>
+        <script src="/js/js/vendor/jquery.js"></script>
+        <script src="/js/js/foundation.min.js"></script>
         <script>
             $(document).foundation();
         </script>
