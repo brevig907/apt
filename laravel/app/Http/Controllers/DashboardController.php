@@ -27,7 +27,7 @@ class DashboardController extends Controller
         $img_url  = 'http://d14d0ey1pb5ifb.cloudfront.net/';
 
         $property = \App\Property::where(['meta_set' => 0, 'status' => '1'])
-            ->orderBy('property_id', 'DESC')
+            ->orderBy('package','DESC')
             ->first();
 
         $address  = \App\Address::where(['property_id' => $property->property_id])
