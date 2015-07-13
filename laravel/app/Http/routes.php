@@ -33,7 +33,7 @@ Route::group(['prefix' => 'dashboard'], function(){
     else
         $ipaddress = 'UNKNOWN';
 //dd($ipaddress);
-    if( $ipaddress == '192.168.56.1' || $ipaddress == '173.160.114.245') {
+    if( $ipaddress == '192.168.56.1' || $ipaddress == '173.160.114.245' || $ipaddress == '75.168.143.220') {
 
         Route::get('', 'DashboardController@index');
 
